@@ -1,6 +1,3 @@
-/*  Making custom properties in root element,
-    Creating new declaration with all section headings
-*/
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -31,9 +28,7 @@ html {
     --line-height-big: 1.8;
 
     --section-header-align: center;
-
     --section-tagline-transform: uppercase;
-
 }
 
 body {
@@ -62,10 +57,10 @@ a {
     text-align: var(--section-header-align);
 }
 
-.section-tagline {
+.section-tagline{
     color: var(--color-primary);
     font-family: var(--font-family-title);
-    transform: var(--section-tagline-transform);
+    text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
 
